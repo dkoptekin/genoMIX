@@ -1,0 +1,31 @@
+data_prefix: /path/to/input/eigenstrat/in_prefix # Eigenstrat path without extension
+output_prefix: /path/to/output/eigenstrat/out_prefix
+data_type: packed # packed, unpacked
+chunk_size: 1000
+2-way:
+  - sources:
+    - Anatolia_EN
+    - IronGates_HG
+  - rates:
+    - [0.70, 0.30]
+3-way:
+  - sources:
+    - Anatolia_EN
+    - IronGates_HG
+    - CHG
+  - rates:
+3-way:
+  - sources:
+    - Anatolia_EN
+    - IronGates_HG
+    - CHG
+  - rates:
+    - [0.34, 0.33, 0.33]
+4-way:
+  - sources:
+    - Anatolia_EN
+    - IronGates_HG
+    - CHG
+    - Levant_N
+  - rates:
+    - [0.34, 0.22, 0.22]
