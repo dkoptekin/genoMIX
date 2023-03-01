@@ -75,7 +75,6 @@ def mixturePops(genoChunk, sourcePop, indFile, popFile):
 
 param_dict = loadYaml(sys.argv[1])
 
-param_dict = loadYaml('/tmp/pycharm_project_872/genoMIX/param.yaml')
 param_dict_keys = param_dict.keys()
 data_prefix = param_dict['data_prefix']
 data_type = param_dict['data_type']
