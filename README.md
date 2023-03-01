@@ -25,12 +25,6 @@ chunk_size: 1000
     - IronGates_HG
     - CHG
   - rates:
-3-way:
-  - sources:
-    - Anatolia_EN
-    - IronGates_HG
-    - CHG
-  - rates:
     - [0.34, 0.33, 0.33]
 4-way:
   - sources:
