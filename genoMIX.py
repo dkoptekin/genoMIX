@@ -1,3 +1,10 @@
+#!/usr/bin/env python3.8
+# -*- coding: utf-8 -*-
+
+"""
+@author: Dilek Koptekin
+"""
+
 import yaml
 import numpy as np
 import pandas as pd
